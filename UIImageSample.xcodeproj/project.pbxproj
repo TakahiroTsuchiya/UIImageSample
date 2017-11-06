@@ -14,6 +14,7 @@
 		63B1366F1FB049A800FA20B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B1366D1FB049A800FA20B7 /* LaunchScreen.storyboard */; };
 		63B1367A1FB049A800FA20B7 /* UIImageSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B136791FB049A800FA20B7 /* UIImageSampleTests.swift */; };
 		63B136851FB049A800FA20B7 /* UIImageSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B136841FB049A800FA20B7 /* UIImageSampleUITests.swift */; };
+		63B136931FB04A2E00FA20B7 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B136921FB04A2E00FA20B7 /* CustomImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		63B136801FB049A800FA20B7 /* UIImageSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImageSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B136841FB049A800FA20B7 /* UIImageSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageSampleUITests.swift; sourceTree = "<group>"; };
 		63B136861FB049A800FA20B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B136921FB04A2E00FA20B7 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				63B136641FB049A800FA20B7 /* AppDelegate.swift */,
 				63B136661FB049A800FA20B7 /* ViewController.swift */,
+				63B136921FB04A2E00FA20B7 /* CustomImageView.swift */,
 				63B136681FB049A800FA20B7 /* Main.storyboard */,
 				63B1366B1FB049A800FA20B7 /* Assets.xcassets */,
 				63B1366D1FB049A800FA20B7 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63B136671FB049A800FA20B7 /* ViewController.swift in Sources */,
+				63B136931FB04A2E00FA20B7 /* CustomImageView.swift in Sources */,
 				63B136651FB049A800FA20B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
