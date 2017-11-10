@@ -19,19 +19,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S7Q-22-wfm" customClass="CustomImageView" customModule="UIImageSample" customModuleProvider="target">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dummy-icon" translatesAutoresizingMaskIntoConstraints="NO" id="S7Q-22-wfm" customClass="CustomImageView" customModule="UIImageSample" customModuleProvider="target">
                                 <rect key="frame" x="74" y="220" width="226" height="226"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="S7Q-22-wfm" secondAttribute="height" multiplier="1:1" id="zV2-gu-qKl"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="120"/>
+                                        <real key="value" value="130"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="S7Q-22-wfm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="CRu-fl-ubx"/>
                             <constraint firstItem="S7Q-22-wfm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Evr-3e-wFV"/>
@@ -39,9 +38,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="S7Q-22-wfm" id="A4E-j2-CaM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="dummy-icon" width="256" height="256"/>
+    </resources>
 </document>
